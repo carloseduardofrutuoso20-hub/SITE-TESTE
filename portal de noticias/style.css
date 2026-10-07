@@ -1,0 +1,39 @@
+ * {
+    margin: 0;
+ } 
+ 
+ body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgba(126, 122, 122, 0.822);
+}
+
+Header {
+    display: flex;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    justify-content: center;
+}
+
+.cards{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: auto;
+    min-width: 320px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cards hr{
+    border: rgb(68, 66, 66);
+    min-height: 15px;
+    border-color: rgb(0, 0, 0);
+}
+
+h1{
+    background-color: rgb(255, 251, 251);
+}
+
